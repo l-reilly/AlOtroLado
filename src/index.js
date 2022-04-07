@@ -3,11 +3,21 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { Home } from "./pages/home"
+import { AboutAuthor } from "./pages/aboutAuthor"
+import { TheBook } from './pages/theBook';
+
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <Router>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/author" element={<AboutAuthor />} />
+      <Route path="/alotroladodelfrio" element={<TheBook />} />
+    </Routes>
+  </Router>
+  ,
   document.getElementById('root')
 );
 

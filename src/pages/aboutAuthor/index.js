@@ -1,0 +1,1 @@
+export {default as AboutAuthor } from './aboutAuthor'
