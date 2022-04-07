@@ -7,14 +7,16 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import { Home } from "./pages/home"
 import { AboutAuthor } from "./pages/aboutAuthor"
 import { TheBook } from './pages/theBook';
+import { Nav } from './components/Nav';
 
 
 ReactDOM.render(
   <Router>
+    <Nav />
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/author" element={<AboutAuthor />} />
-      <Route path="/alotroladodelfrio" element={<TheBook />} />
+      <Route path="/book" element={<TheBook />} />
     </Routes>
   </Router>
   ,
