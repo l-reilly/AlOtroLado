@@ -14,7 +14,7 @@ const nav = () => {
                 Sobre el Autor
             </NavLink>
             <NavLink className="nav-link" to="/book">
-                El libro
+                El Libro
             </NavLink>
         </div>
     </div>

@@ -1,0 +1,17 @@
+.navBar {
+    background-color: var(--color-bg);
+    font-family: var(--text);
+    font-size: 1.3rem;
+    display: flex;
+    justify-content: center;
+}
+.nav-link {
+    padding: 1.5rem;
+    text-decoration: none;
+}
+.nav-link:visited {
+    color: var(--color-blue-dark);
+}
+.nav-link:link {
+    color: var(--color-blue-dark);
+}

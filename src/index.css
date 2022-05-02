@@ -1,3 +1,7 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto+Condensed:wght@700&display=swap');
+
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +14,15 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+:root {
+  --color-bg-light: #FEFBE7;
+  --color-bg:#F9EBC8;
+  --color-highlight:#DAE5D0;
+  --color-blue:#A0BCC2;
+  --color-blue-dark:#3c585e;
+  
+  --transition: all 400ms ease;
+  --title: 'Roboto Condensed', sans-serif;
+  --text: 'Playfair Display',serif;
 }

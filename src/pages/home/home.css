@@ -1,0 +1,60 @@
+.review-box {
+    width: 30%;
+    display: flex;
+    flex-direction:column;
+    background-color: aliceblue;
+    border-radius: 10%;
+    align-items: center;
+    padding: 1rem;
+    border-style: ridge;
+}
+.reviews{
+    display: flex;
+    gap: 1.5rem;
+    margin: 2%;
+}
+.review-into {
+  display: flex;  
+  justify-content: center;
+  align-items: center;
+}
+.homePage {
+    font-family: var(--text);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.homePage h1 h2{
+    font-family: var(--title);
+}
+.header img{
+    width: 15em;
+}
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(to right, #DAE5D0, #A0BCC2);
+    padding-bottom: 2%;
+    width: 100%;
+    border-style: ridge;
+}
+.aboutBook {
+    border-style: groove;
+    width: 100%;
+    background-color: var(--color-blue-dark);
+    opacity: 70%;
+    color: var(--color-bg-light);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.aboutBook p {
+    padding: 2%;
+    font-size: 1.3rem;
+}
+.aboutBook a{
+    text-decoration: none;
+    color: aliceblue;
+}
