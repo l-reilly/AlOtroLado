@@ -1,0 +1,13 @@
+.footer {
+    background-color: var(--color-bg);
+    font-family: var(--title);
+    display: flex;
+    justify-content: center;
+}
+.footer li {
+    list-style: none;
+    padding-right: 1.5rem;
+}
+.footer h2 {
+    font-size: 0.8rem;
+}

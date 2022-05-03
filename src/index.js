@@ -8,6 +8,7 @@ import { Home } from "./pages/home"
 import { AboutAuthor } from "./pages/aboutAuthor"
 import { TheBook } from './pages/theBook';
 import { Nav } from './components/Nav';
+import { Footer } from './components/footer'
 
 
 ReactDOM.render(
@@ -18,6 +19,7 @@ ReactDOM.render(
       <Route path="/author" element={<AboutAuthor />} />
       <Route path="/book" element={<TheBook />} />
     </Routes>
+    <Footer />
   </Router>
   ,
   document.getElementById('root')

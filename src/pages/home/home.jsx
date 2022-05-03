@@ -7,13 +7,15 @@ const home = () => {
   return (
     <div className='homePage'>
     <div className='header'>
-      <h1> Al Otro Lado Del Frio</h1>
+    <h1>Al otro lado del frío</h1>
+      <div className='title-box'>
         <a href="https://www.amazon.es/AL-OTRO-LADO-DEL-FR%C3%8DO/dp/841243711X/ref=sr_1_1?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=3VRV5A0BETX84&keywords=al+otro+lado+del+frio&qid=1650962211&sprefix=al+otro+lado+del+frio%2Caps%2C135&sr=8-1" target="_blank"><img src={Cover} alt="book cover" /></a>
         <h2>Rodrigo Lopez Gutierrez</h2>
-      </div>
+        </div>
       <div className='aboutBook'>
         <p>"En mitad de un camino de autodescubrimiento, Ava (una chica de Nueva Zelanda) emprenderá un viaje hacia su espacio interior que la llevará hasta sus raíces. En su trayecto, vivirá una experiencia reveladora y liberadora que la ayudará a deshacerse de la angustia que viene experimentando desde largo tiempo."</p>
         <a href="https://www.amazon.es/AL-OTRO-LADO-DEL-FR%C3%8DO/dp/841243711X/ref=sr_1_1?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=3VRV5A0BETX84&keywords=al+otro+lado+del+frio&qid=1650962211&sprefix=al+otro+lado+del+frio%2Caps%2C135&sr=8-1" target="_blank"><h2>Compralo en Amazon <BsFillArrowUpRightCircleFill/></h2></a>
+        </div>
       </div>
       <div className='review-into'>
       <h2>Lo que dice la gente:</h2>
